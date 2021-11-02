@@ -1,5 +1,7 @@
 package main
 
+import "github.com/origin-yaropolk/testgame-service/service"
+
 func main() {
-	println("Ah shit, here we go again")
+	service.RunService()
 }
