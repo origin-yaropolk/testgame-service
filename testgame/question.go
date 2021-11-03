@@ -1,7 +1,7 @@
 package testgame
 
 type question struct {
-	text          string
-	answerOptions []string
-	answer        string
+	Text          string   `json:"text"`
+	AnswerOptions []string `json:"answerOptions"`
+	Answer        int      `json:"answer"`
 }

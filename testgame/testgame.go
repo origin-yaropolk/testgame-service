@@ -1,8 +1,8 @@
 package testgame
 
 type Test struct {
-	id        string
-	header    header
-	questions []question
-	social    social
+	ID        string     `json:"id"`
+	Header    header     `json:"header"`
+	Questions []question `json:"questions"`
+	Social    social     `json:"social"`
 }

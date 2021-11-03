@@ -1,5 +1,6 @@
 package testgame
 
 type social struct {
-	rate float32
+	Rate      float32 `json:"rate"`
+	RateCount int     `json:"rateCount"`
 }

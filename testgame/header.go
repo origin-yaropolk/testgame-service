@@ -1,6 +1,6 @@
 package testgame
 
 type header struct {
-	title       string
-	description string
+	Title       string `json:"title"`
+	Description string `json:"description"`
 }
